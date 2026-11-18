@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El juego de la vida</title>
+  <link rel="stylesheet" href="bebes.css?v=18">
+</head>
+<body>
+  <header class="cabecera">
+    <div>
+      <p class="etiqueta">Juego para 6 grupos</p>
+      <h1>El juego de la vida</h1>
+      <p class="bajada">Material fijo. 10 pruebas para crecer + 5 de reserva si falla. Máximo 2 grupos por prueba.</p>
+    </div>
+    <div class="acciones">
+      <button id="repartir" class="principal">Repartir al azar</button>
+      <button id="reiniciar" class="secundario">Reiniciar</button>
+    </div>
+  </header>
+  <main id="tablero" class="tablero" aria-live="polite"></main>
+  <script src="bebes.js?v=18" defer></script>
+</body>
+</html>
